@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+div.a {
+    border-width:3px;  
+    border-style:double;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+p{
+        border-width:5px;  
+        border-style:hidden;
+    }
+.garis-pertama{
+    border-bottom: 3px solid black;
+    margin: 20px 290px 20px 290px;
+}
+.garis-kedua{
+    border-bottom: 1px solid black;
+    margin: 20px 290px 20px 290px;
+}
