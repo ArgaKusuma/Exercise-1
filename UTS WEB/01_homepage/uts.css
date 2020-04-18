@@ -1,0 +1,131 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+div.a {
+    text-align: right;
+}
+p.minimo {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+p.list {
+    text-align: right;
+}
+p.deskripsi {
+    font-family: 'Playfair Display', serif;
+    color: #606060
+}
+li {
+    display: inline;
+    margin-right: 10px;
+    font-family: Ubuntu;
+    color: grey;
+}
+li.space {
+    visibility: hidden;
+}
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+  }
+  a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+p.judul {
+    font-size: xx-large;
+    font-family: 'Playfair Display', serif;
+    color: #606060
+}
+p.kutipan {
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+div.column {
+    float: left;
+    width: 49%;
+    padding-right: 0px;
+  }
+div.columning {
+    float: left;
+    width: 49%;
+    padding-left: 0px;
+}
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+div.sign{
+    margin-top: 70px;
+    border-style: solid;
+    padding :  50px;
+    background-color: lightgrey;
+    border: none;
+}
+
+h1.up{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom:20px;
+}
+
+form{
+    text-align: center;
+}
+
+input.bar{
+    margin: 10px;
+	font-size: 10pt;
+	padding: 10px;	
+	background: transparent;
+	font-family: roboto;
+    border-style: none none solid none;
+    border-color: black;
+    border-width: thin;
+    padding-right: 100px;
+    background-image: url(email.png);
+    background-position: right;
+    background-size: 25px;
+    background-repeat: no-repeat;
+
+}
+p.ppq {
+    margin-bottom: 10%;
+    font-family: 'Playfair Display', serif;
+    color: #606060
+}
+.load{
+    margin-left: 380px;
+    margin-right: 380px;
+    text-align: center;
+    border-style: solid;
+    padding: 15px;
+    border-width: thin;
+    color: grey;
+    font-size: x-large;
+}
+.b {
+    font-weight: bolder;
+}
+div.end {
+    color: #606060;
+}
+h1.up {
+    color: #606060
+}

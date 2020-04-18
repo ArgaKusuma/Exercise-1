@@ -1,0 +1,97 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+div.a {
+    text-align: right;
+}
+p.minimo {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+p.list {
+    text-align: right;
+}
+p.deskripsi {
+    font-family: 'Playfair Display', serif;
+    color: #606060
+}
+li {
+    display: inline;
+    margin-right: 10px;
+    color: grey;
+    font-family: 'Playfair Display', serif;
+}
+li.space {
+    visibility: hidden;
+}
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+p.judul {
+    font-size: xx-large;
+    color: #606060;
+    font-family: 'Playfair Display', serif;
+}
+p.kutipan {
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+
+div.sign{
+    margin-top: 70px;
+    border-style: solid;
+    padding :  50px;
+    background-color: lightgrey;
+    border: none;
+}
+div.column {
+    float: left;
+    width: 32.2%;
+    padding: 5px;
+  }
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+p.like {
+    font-size: x-large;
+    color: grey;
+}
+.b {
+    font-weight: bolder;
+}
+p.komen {
+    font-size: large;
+    color: #606060;
+}
+textarea{
+    border-radius: 5px;
+    width: 875px;
+    height: 50px;
+    padding: 8px;
+}
+div.end {
+    color: #606060;
+}
+img.tipis {
+    opacity: 0.3;
+  }
